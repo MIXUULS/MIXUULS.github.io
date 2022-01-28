@@ -23,11 +23,6 @@
                             <h2>请 Ctrl+D 收藏本页到浏览器收藏夹</h2>
                             <ul>
                                 <li>
-                                    Goodguy
-                                    <a href="https://www.likixi.com" target="_blank"><i>https://www.likixi.com</i></a>
-                                     
-                                </span></span></li>
-                                <li>
                                     哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
                                     <a href="https://www.bilibili.com/" target="_blank"><i>https://www.bilibili.com/</a>
                                      
@@ -35,11 +30,6 @@
                                 <li>
                                     百度贴吧
                                     <a href="https://tieba.baidu.com/index.html" target="_blank"><i>https://tieba.baidu.com/index.html</i></a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    成为一个GoodGuy-个人网站
-                                    <a href="https://www.likixi.com" target="_blank"><i>https://www.likixi.com/</i></a>
                                      
                                 </span></span></li>
                                 <li>
@@ -66,7 +56,7 @@
                              
                     </div>
                 </div>
-                <p class="footer">© 2022 GoodGuy. All Rights Reserved</p>
+                <p class="footer">© 2022 MIXUULS. All Rights Reserved</p>
             </div>    
             <ul class="bg-bubbles">
                 <li></li>
