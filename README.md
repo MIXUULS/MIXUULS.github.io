@@ -1,5 +1,4 @@
 # MIXUULS.github.io
-黑珍
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,7 +66,7 @@
                              
                     </div>
                 </div>
-                <p class="footer">© 2020 GoodGuy. All Rights Reserved</p>
+                <p class="footer">© 2022 GoodGuy. All Rights Reserved</p>
             </div>    
             <ul class="bg-bubbles">
                 <li></li>
