@@ -1,76 +1,242 @@
 # MIXUULS.github.io
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="Author" content="Noah">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="favicon" href="favicon.ico">
-    <title>自己的导航页</title>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
-    <style>@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.eot?t=1584846914425);src:url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.eot?t=1584846914425#iefix) format('embedded-opentype'),url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPcAAsAAAAACEAAAAOQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDVIMaATYCJAMUCwwABCAFhG0HUhswBxEVnPHIfiZkcgn7O+8oo66bEbK2OpSJxjfBA+X1vslMtll8iBW0KuzdSry1J/JGpwASAA0EaO7O95urXT4WOkKV5Nojj7b4hwrpy2SO/v97p78xLfvYuvYslzWHLex8DDAOpEDHnGQljg3TC+cUPEjbIQAHqRRD1GvQzI2BgvQTgBjYr083jJQNVcMRGEZbyVSVKhajY2hztCvAIv178YYywgANXUJ2atW7fk9qmZi1ZMCSjnILC8fbDUAHJFAMUCCGl/oGIm2uGBKHP1RRC3BgoKGZmLxVUbOWZcWqHRkc9A8PBBKFBsIGKXUBUAvlFZhwBAGmhiDBLIqgwKyVRwPuKwAOWAjCWUxL9mpIWOWKcikVmuwiF0+49sx9/bnn5gvfDdO/at6eQHTP5dHLd8Z6V67btSPG061Q523w0S5OzYETx4QbT9zXbnmuP/bdvOsL9lwR2D031utePndvMM7nXRncNy/G4xvlEveE69fc4Tdu+AbcnOdxa4E98/bFyZV75+5WxGRRnfY0cEulpaqbVCzNtxTEU1P1m2J4tFGwJ7VcytpevcrWOXd44oCjAyZu3DXRvQxryi09PV2/BcVQIlRxZPWvAFhMXkb1qQ3bHPFvOVXxWI1TjTLPFjtT5smFsAtxVqK82CcvekwcsbMOHDh4wOBxYw4eZI+NVR+A6Vmx4bGz1ZI0XFw1r0mlXm20lW5RpWd+s0u/ijYZwarmHJsZVi+tXKjMlU2rm186Hlk6tFxaPfwAWLPk3380K2u4Qm6xtmaprTL4b/dj0Nu/F+qwat8MpwLgzvpfdbSsPbbVBj9Ijy//kxa1tAb7qAqUxK4rT8490qpVpxGATiESBDT4aTX/LxTJg3H0MbPIZMAgJgaNIqSAxCCbpGjFQMdJObBhUBMcFKXhbCdRDEcilB0oZAYAQTiHQCOU4yAJ5ypJ0e6DTizvwEa4kODAK6KWdJIrLP1uHgWtYqDuj3zPi2FOvTHlb7BpaiWp1NwvSPRJKrMiW3zFAhljRPy2laohIzzTC9gN08S0Cgf0mjnV9ZLnpuxDWc/z5oZHQasYqPsj3/NiZGO9yX3/DTZNrdQQ+qJfkOjbpzIrWpBedUsrwrXcEr9tpWrICM/0AjyYaI5pLe8U0GvmemTWS47qmba6bH7D/IybAAdkZV1oQgoldGHjYViCYPl3WKxb86g+On/sE/+kc/CLtS1vNg==') format('woff2'),url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.woff?t=1584846914425) format('woff'),url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.ttf?t=1584846914425) format('truetype'),url(//at.alicdn.com/t/font_1706200_3sgw4esvyq9.svg?t=1584846914425#iconfont) format('svg')}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-querenzhengque:before{content:"\e600"}.icon-tishi:before{content:"\e640"}.icon-cuowu:before{content:"\e602"}.icon-jinggao:before{content:"\e62b"}*{box-sizing:border-box;margin:0;padding:0;font-weight:300}body,body ::-webkit-input-placeholder{font-family:Source Sans Pro,sans-serif;color:#fff;font-weight:300}body :-moz-placeholder,body ::-moz-placeholder{font-family:Source Sans Pro,sans-serif;color:#fff;opacity:1;font-weight:300}body :-ms-input-placeholder{font-family:Source Sans Pro,sans-serif;color:#fff;font-weight:300}a{text-decoration:none}.wrapper{background: #01a982; background: linear-gradient(to bottom right,#01a982 0,#60ae80 100%); overflow: hidden;}.bg-bubbles,.wrapper{position:absolute;left:0;width:100%;}.bg-bubbles{top:0;z-index:1}.bg-bubbles li{position:absolute;list-style:none;display:block;width:40px;height:40px;background-color:hsla(0,0%,100%,.15);bottom:-160px;animation:square 25s infinite;transition-timing-function:linear}.bg-bubbles li:nth-child(1){left:10%}.bg-bubbles li:nth-child(2){left:20%;width:80px;height:80px;animation-delay:2s;animation-duration:17s}.bg-bubbles li:nth-child(3){left:25%;animation-delay:4s}.bg-bubbles li:nth-child(4){left:40%;width:60px;height:60px;animation-duration:22s;background-color:hsla(0,0%,100%,.25)}.bg-bubbles li:nth-child(5){left:70%}.bg-bubbles li:nth-child(6){left:80%;width:120px;height:120px;animation-delay:3s;background-color:hsla(0,0%,100%,.2)}.bg-bubbles li:nth-child(7){left:32%;width:160px;height:160px;animation-delay:7s}.bg-bubbles li:nth-child(8){left:55%;width:20px;height:20px;animation-delay:15s;animation-duration:40s}.bg-bubbles li:nth-child(9){left:25%;width:10px;height:10px;animation-delay:2s;animation-duration:40s;background-color:hsla(0,0%,100%,.3)}.bg-bubbles li:nth-child(10){left:90%;width:160px;height:160px;animation-delay:11s}@keyframes square{0%{transform:translatey(0)}to{transform:translatey(-700px) rotate(600deg)}}@media (max-width:500px){.container h1{font-size:60px}form button,form input{width:500px}}.main{padding:50px 0;z-index:999;position:relative}.main h1{font-size:40px;text-align:center;color:#fff;margin-bottom:30px;text-transform:uppercase}.content{margin:0 auto;width:28%;background:#fff;border-radius:5px}p.footer{font-size:16px;text-align:center;color:#fff;font-weight:500;margin-top:30px}p.footer a{color:#55acee}p.footer a:hover{color:#000;transition:.5s all;-webkit-transition:.5s all;-moz-transition:.5s all;-o-transition:.5s all;-ms-transition:.5s all}.content-top h2{font-size:22px;color:#fff;text-align:center;background:#02a982;padding:12px 0;border-radius:5px}.content-top p{text-align:center;font-size:16px;color:#000;margin-top:15px}.content-top ul li{display:block;font-size:15px;color:#000;line-height:1.8em;padding:1em 0 1em 1em;border-bottom:1px solid #e2e0de}.content-top ul li a{color:#000;font-weight:400}.content-top ul li a i{color:#02a982;font-style:normal;display:block;margin:2px 0}.content-top ul li span{display:block;color:#999}.content-top{padding:1.5em}.content-top p a{color:#55acee;margin-left:5px}@media (max-width:1366px){.content{width:31%}}@media (max-width:1280px){.content{width:32%}}@media (max-width:1080px){.content{width:38%}.main h1{font-size:36px}.content-top h2{font-size:20px;padding:10px 0}.content-top p,.content-top ul li,p.footer{font-size:14px}}@media (max-width:800px){.main h1{font-size:34px}.content{width:46%}}@media (max-width:768px){.main{padding:90px 0}.main h1{margin-bottom:55px}p.footer{margin-top:75px}}@media (max-width:736px){.main{padding:70px 0}.main h1{margin-bottom:45px}.content{width:53%}p.footer{margin-top:50px}}@media (max-width:667px){.main h1{font-size:32px;margin-bottom:35px}.main{padding:60px 0}.content{width:57%}.content-top h2{font-size:18px}}@media (max-width:600px){.main h1{font-size:30px}.content-top{padding:1em}.content{width:62%}}@media (max-width:568px){.content{width:68%}}@media (max-width:480px){.content{width:78%}.main h1{font-size:28px}p.footer{margin-top:42px}}@media (max-width:414px){.content-top h2{font-size:16px}.content{width:85%}.main{padding:50px 0}p.footer{line-height:1.8em;margin:42px auto 0;width:85%}}@media (max-width:384px){.main h1{font-size:27px}.content,p.footer{width:90%}p.footer{margin:32px auto 0}}@media (max-width:375px){.main h1{font-size:26px;margin-bottom:25px}.main{padding:45px 0}.content,p.footer{width:92%}.content-top h2{padding:8px 0}}@media (max-width:320px){.main h1{font-size:24px;margin-bottom:30px}.content-top ul li{padding:1em 0 1em 1em;background-size:13%!important}.content-top{padding:1.2em}.content-top p,.content-top ul li,p.footer{font-size:13px}.content,p.footer{width:90%}}@media(max-width:500px){.bg-bubbles, .wrapper{height:auto;}}</style>
+<meta charset="utf-8">
+<title>H5,200行代码实现粒子漩涡特效</title>
+<style>
+html,body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+  background:#000;
+}
+#canvas{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+</style>
 </head>
-<body >
-    <div id="all">
-        <div class="wrapper">
-            <div class="main">
-                <h1>地址发布页</h1>
-                <div class="content">
-                    <div class="content-top">             
-                            <h2>请 Ctrl+D 收藏本页到浏览器收藏夹</h2>
-                            <ul>
-                                <li>
-                                    哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
-                                    <a href="https://www.bilibili.com/" target="_blank"><i>https://www.bilibili.com/</a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    百度贴吧
-                                    <a href="https://tieba.baidu.com/index.html" target="_blank"><i>https://tieba.baidu.com/index.html</i></a>
-                                     
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                <li>
-                                    Youtube
-                                    <a href="https://www.youtube.com/" target="_blank"><i>https://www.youtube.com/</i></a>
-                                </span></span></li>
-                                 
-                                <li>
-                                <span>近期部分国产浏览器屏蔽网址，电脑请安装<a href="https://www.google.cn/chrome/" target="_blank">chrome浏览器</a>访问，手机请安装<a href="https://www.xbext.com/" target="_blank">X浏览器</a>访问。<span>
-                            </ul>
+<body>
+<canvas id="canvas"></canvas>
+<script>
+function project3D(x,y,z,vars){
+	var p,d;
+	x-=vars.camX;
+	y-=vars.camY-8;
+	z-=vars.camZ;
+	p=Math.atan2(x,z);
+	d=Math.sqrt(x*x+z*z);
+	x=Math.sin(p-vars.yaw)*d;
+	z=Math.cos(p-vars.yaw)*d;
+	p=Math.atan2(y,z);
+	d=Math.sqrt(y*y+z*z);
+	y=Math.sin(p-vars.pitch)*d;
+	z=Math.cos(p-vars.pitch)*d;
+	var rx1=-1000;
+	var ry1=1;
+	var rx2=1000;
+	var ry2=1;
+	var rx3=0;
+	var ry3=0;
+	var rx4=x;
+	var ry4=z;
+	var uc=(ry4-ry3)*(rx2-rx1)-(rx4-rx3)*(ry2-ry1);
+	var ua=((rx4-rx3)*(ry1-ry3)-(ry4-ry3)*(rx1-rx3))/uc;
+	var ub=((rx2-rx1)*(ry1-ry3)-(ry2-ry1)*(rx1-rx3))/uc;
+	if(!z)z=0.000000001;
+	if(ua>0&&ua<1&&ub>0&&ub<1){
+		return {
+			x:vars.cx+(rx1+ua*(rx2-rx1))*vars.scale,
+			y:vars.cy+y/z*vars.scale,
+			d:(x*x+y*y+z*z)
+		};
+	}else{
+		return { d:-1 };
+	}
+}
+function elevation(x,y,z){
+	var dist = Math.sqrt(x*x+y*y+z*z);
+	if(dist && z/dist>=-1 && z/dist <=1) return Math.acos(z / dist);
+	return 0.00000001;
+}
+function rgb(col){
+	col += 0.000001;
+	var r = parseInt((0.5+Math.sin(col)*0.5)*16);
+	var g = parseInt((0.5+Math.cos(col)*0.5)*16);
+	var b = parseInt((0.5-Math.sin(col)*0.5)*16);
+	return "#"+r.toString(16)+g.toString(16)+b.toString(16);
+}
+function interpolateColors(RGB1,RGB2,degree){
+	var w2=degree;
+	var w1=1-w2;
+	return [w1*RGB1[0]+w2*RGB2[0],w1*RGB1[1]+w2*RGB2[1],w1*RGB1[2]+w2*RGB2[2]];
+}
+function rgbArray(col){
+	col += 0.000001;
+	var r = parseInt((0.5+Math.sin(col)*0.5)*256);
+	var g = parseInt((0.5+Math.cos(col)*0.5)*256);
+	var b = parseInt((0.5-Math.sin(col)*0.5)*256);
+	return [r, g, b];
+}
+function colorString(arr){
+	var r = parseInt(arr[0]);
+	var g = parseInt(arr[1]);
+	var b = parseInt(arr[2]);
+	return "#"+("0" + r.toString(16) ).slice (-2)+("0" + g.toString(16) ).slice (-2)+("0" + b.toString(16) ).slice (-2);
+}
+function process(vars){
+	if(vars.points.length<vars.initParticles) for(var i=0;i<5;++i) spawnParticle(vars);
+	var p,d,t;	
+	p = Math.atan2(vars.camX, vars.camZ);
+	d = Math.sqrt(vars.camX * vars.camX + vars.camZ * vars.camZ);
+	d -= Math.sin(vars.frameNo / 80) / 25;
+	t = Math.cos(vars.frameNo / 300) / 165;
+	vars.camX = Math.sin(p + t) * d;
+	vars.camZ = Math.cos(p + t) * d;
+	vars.camY = -Math.sin(vars.frameNo / 220) * 15;
+	vars.yaw = Math.PI + p + t;
+	vars.pitch = elevation(vars.camX, vars.camZ, vars.camY) - Math.PI / 2;	
+	var t;
+	for(var i=0;i<vars.points.length;++i){		
+		x=vars.points[i].x;
+		y=vars.points[i].y;
+		z=vars.points[i].z;
+		d=Math.sqrt(x*x+z*z)/1.0075;
+		t=.1/(1+d*d/5);
+		p=Math.atan2(x,z)+t;
+		vars.points[i].x=Math.sin(p)*d;
+		vars.points[i].z=Math.cos(p)*d;
+		vars.points[i].y+=vars.points[i].vy*t*((Math.sqrt(vars.distributionRadius)-d)*2);
+		if(vars.points[i].y>vars.vortexHeight/2 || d<.25){
+			vars.points.splice(i,1);
+			spawnParticle(vars);
+		}
+	}
+}
+function drawFloor(vars){	
+	var x,y,z,d,point,a;
+	for (var i = -25; i <= 25; i += 1) {
+		for (var j = -25; j <= 25; j += 1) {
+			x = i*2;
+			z = j*2;
+			y = vars.floor;
+			d = Math.sqrt(x * x + z * z);
+			point = project3D(x, y-d*d/85, z, vars);
+			if (point.d != -1) {
+				size = 1 + 15000 / (1 + point.d);
+				a = 0.15 - Math.pow(d / 50, 4) * 0.15;
+				if (a > 0) {
+					vars.ctx.fillStyle = colorString(interpolateColors(rgbArray(d/26-vars.frameNo/40),[0,128,32],.5+Math.sin(d/6-vars.frameNo/8)/2));
+					vars.ctx.globalAlpha = a;
+					vars.ctx.fillRect(point.x-size/2,point.y-size/2,size,size);
+				}
+			}
+		}
+	}		
+	vars.ctx.fillStyle = "#82f";
+	for (var i = -25; i <= 25; i += 1) {
+		for (var j = -25; j <= 25; j += 1) {
+			x = i*2;
+			z = j*2;
+			y = -vars.floor;
+			d = Math.sqrt(x * x + z * z);
+			point = project3D(x, y+d*d/85, z, vars);
+			if (point.d != -1) {
+				size = 1 + 15000 / (1 + point.d);
+				a = 0.15 - Math.pow(d / 50, 4) * 0.15;
+				if (a > 0) {
+					vars.ctx.fillStyle = colorString(interpolateColors(rgbArray(-d/26-vars.frameNo/40),[32,0,128],.5+Math.sin(-d/6-vars.frameNo/8)/2));
+					vars.ctx.globalAlpha = a;
+					vars.ctx.fillRect(point.x-size/2,point.y-size/2,size,size);
+				}
+			}
+		}
+	}		
+}
+function sortFunction(a,b){
+	return b.dist-a.dist;
+}
+function draw(vars){
+	vars.ctx.globalAlpha=.15;
+	vars.ctx.fillStyle="#000";
+	vars.ctx.fillRect(0, 0, canvas.width, canvas.height);
+	drawFloor(vars);	
+	var point,x,y,z,a;
+	for(var i=0;i<vars.points.length;++i){
+		x=vars.points[i].x;
+		y=vars.points[i].y;
+		z=vars.points[i].z;
+		point=project3D(x,y,z,vars);
+		if(point.d != -1){
+			vars.points[i].dist=point.d;
+			size=1+vars.points[i].radius/(1+point.d);
+			d=Math.abs(vars.points[i].y);
+			a = .8 - Math.pow(d / (vars.vortexHeight/2), 1000) * .8;
+			vars.ctx.globalAlpha=a>=0&&a<=1?a:0;
+			vars.ctx.fillStyle=rgb(vars.points[i].color);
+			if(point.x>-1&&point.x<vars.canvas.width&&point.y>-1&&point.y<vars.canvas.height)vars.ctx.fillRect(point.x-size/2,point.y-size/2,size,size);
+		}
+	}
+	vars.points.sort(sortFunction);
+}
+function spawnParticle(vars){
  
-                             
-                    </div>
-                </div>
-                <p class="footer">© 2022 MIXUULS. All Rights Reserved</p>
-            </div>    
-            <ul class="bg-bubbles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-    </div>
+	var p,ls;
+	pt={};
+	p=Math.PI*2*Math.random();
+	ls=Math.sqrt(Math.random()*vars.distributionRadius);
+	pt.x=Math.sin(p)*ls;
+	pt.y=-vars.vortexHeight/2;
+	pt.vy=vars.initV/20+Math.random()*vars.initV;
+	pt.z=Math.cos(p)*ls;
+	pt.radius=200+800*Math.random();
+	pt.color=pt.radius/1000+vars.frameNo/250;
+	vars.points.push(pt);	
+}
+function frame(vars) {
+	if(vars === undefined){
+		var vars={};
+		vars.canvas = document.querySelector("canvas");
+		vars.ctx = vars.canvas.getContext("2d");
+		vars.canvas.width = document.body.clientWidth;
+		vars.canvas.height = document.body.clientHeight;
+		window.addEventListener("resize", function(){
+			vars.canvas.width = document.body.clientWidth;
+			vars.canvas.height = document.body.clientHeight;
+			vars.cx=vars.canvas.width/2;
+			vars.cy=vars.canvas.height/2;
+		}, true);
+		vars.frameNo=0;
+ 
+		vars.camX = 0;
+		vars.camY = 0;
+		vars.camZ = -14;
+		vars.pitch = elevation(vars.camX, vars.camZ, vars.camY) - Math.PI / 2;
+		vars.yaw = 0;
+		vars.cx=vars.canvas.width/2;
+		vars.cy=vars.canvas.height/2;
+		vars.bounding=10;
+		vars.scale=500;
+		vars.floor=26.5;
+ 
+		vars.points=[];
+		vars.initParticles=700;
+		vars.initV=.01;
+		vars.distributionRadius=800;
+		vars.vortexHeight=25;
+	}
+	vars.frameNo++;
+	requestAnimationFrame(function() {
+		frame(vars);
+	});
+	process(vars);
+	draw(vars);
+}
+frame();
+</script>
 </body>
 </html>
+ 
