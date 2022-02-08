@@ -1,64 +1,52 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>木鱼科技制作人生重开模拟器 - 休闲小游戏 - </title>
-<meta name="Description" content="木鱼科技小游戏免费在线玩人生重开模拟器小游戏,想知道人生重开模拟器怎么玩么？来木鱼科技制作人生重开模拟器看最新最全的人生重开模拟器攻略和秘籍吧。快告诉你的朋友吧!" />
-<meta name="Keywords" content="人生重开模拟器,人生重开模拟器怎么玩,人生重开模拟器小游戏,人生重开模拟器攻略秘籍,人生重开模拟器在线玩" />
-<meta property="og:title" content="木鱼科技人生重开模拟器H5游戏" />
-<meta property="og:site_name" content="木鱼科技小游戏" />
-<meta property="og:url" content="http://m.7k7k.com/swf/204220.htm" />
-<meta property="og:image" content="https://i3.7k7kimg.cn/game/300200/205/204220_588815.jpg" />
-<link rel="canonical" href="http://www.7k7k.com/swf/204220.htm" />
-    <link rel="stylesheet" href="http://www.7k7kjs.cn/static/mqike/common/base.css?v=26">
-    <link rel="stylesheet"
-    href="http://www.7k7kjs.cn/static/mqike/td/css/player.css?v=26">
-    <script src="http://www.7k7kjs.cn/static/mqike/common/js/jq.js?v=26"></script>
-    <script src="http://www.7k7kjs.cn/static/mqike/common/js/mqike.js?v=26"></script>
-    <script type="text/javascript" src="http://www.7k7kjs.cn/static/mqike/td/js/inobounce.js?v=26"></script>
-    <script type="text/javascript">
-        document.domain="7k7k.com";
-        var gameInfo = {
-            isWeb: 0,
-            gameId: 204220 ,
-            gameName:"人生重开模拟器" ,
-            gameUrl:"http://flash.7k7k.com/cms/cms10/20211224/1950067852/lifeRestart-master/view/index.html" ,
-            gamePic:"https://i4.7k7kimg.cn/game/140140/205/204220_534922.jpg",
-            iconWidth: "140"
-   }
-        var ggInfo = {
-        "gg_pic":"https://i1.7k7kimg.cn/game/240400/205/game_zu_shu_204075_417700.jpg",
-    "gg_icon":"https://i4.7k7kimg.cn/game/orig/205/204075_004878.png",
-    "gg_title":"禅游斗地主",
-    "gg_desc":"超高人气的禅游斗地主，全新场景，3D画质",
-    "gg_link":"http://h5.7k7k.com/mb/mb2/61cbd3a00e81a3148f48f964820063a8.html?gid=c3435432347bb636c57546fa4024bbf7&\tid=94519&\qs=1"
-}    </script>
-    <script type="text/javascript" src="http://www.7k7kjs.cn/static/mqike/td/js/player.js?v=26"></script>
+    <meta name="description" content="やり直すんだ。そして、次はうまくやる。"/>
+    <meta name="keywords" content="黑贞重开模拟器 liferestart life restart remake 人生重来"/>
+    <link id="themeLink" rel="stylesheet" href="light.css">
+    <link rel="manifest" href="./manifest.json">
+    <title>Life Restart</title>
 </head>
-<body ontouchmove="event.preventDefault()">
-    <div id="player">
-        <iframe src="http://flash.7k7k.com/cms/cms10/20211224/1950067852/lifeRestart-master/view/index.html" id="ifm" frameborder="0" width="100%" height="100%" scrolling='no' ></iframe>
+<body>
+  <div class="banners-container">
+    <div class="banners">
+      <div class="banner error">
+        <div class="banner-icon"><span class="iconfont">&#xe6a1;</span></div>
+        <pre class="banner-message">Oops! Something went wrong!</pre>
+        <div class="banner-close" onclick="hideBanners()"><span class="iconfont">&#xe6a8;</span></div>
+      </div>
+      <div class="banner success">
+        <div class="banner-icon"><span class="iconfont">&#xe6a2;</span></div>
+        <pre class="banner-message">Everything was fine!</pre>
+        <div class="banner-close" onclick="hideBanners()"><span class="iconfont">&#xe6a8;</span></div>
+      </div>
+      <div class="banner info">
+        <div class="banner-icon"><span class="iconfont">&#xe6a3;</span></div>
+        <pre class="banner-message">Here is some useful information</pre>
+        <div class="banner-close" onclick="hideBanners()"><span class="iconfont">&#xe6a8;</span></div>
+      </div>
     </div>
-    <script type="text/javascript" src="http://www.7k7kjs.cn/qike/qikecore.200628.3.js"></script>
-    <script>
-        try {
-            var vuid = qikecore.account.getVUID();
-            vuid && \qikecore.utils.analysis.add( 'player.game.id', {
-                "uid": vuid,
-                "gid": gameInfo.gameId,
-                "wap": 1
-            });
-        } catch( e ) { }
-    </script>
-    <script>
-        (function(){
-            var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?d182b3f28525f2db83acfaaf6e696dba";
-            document.write('<script src="'   src   '" id="sozz"><\/script>');
-        })();
-    </script>
-    <script src="//www.7k7kjs.cn/static/common/pub.js?v=1.0.2"></script>
-    <link rel="stylesheet" href="http://www.7k7kjs.cn/static/mqike/login/css/login-fcm-m.css?v=26">
-    <script src="http://www.7k7kjs.cn/static/mqike/login/js/login-m-fcm2.js?v=1643858118"></script>
+  </div>
+  <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></a>
+
+  <script src="../lib/jquery-3.6.0.min.js"></script>
+  <script src="../lib/dom-to-image.min.js"></script>
+  <script src="../public/bundle.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('./sw.js', {scope: '.'})
+          .then(function (registration) {
+            console.log('ServiceWorker registration successful');
+          })
+          .catch(function (err) {
+            console.log('ServiceWorker registration failed');
+          });
+      });
+    }
+  </script>
 </body>
 </html>
